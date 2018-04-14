@@ -1,21 +1,5 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- config.xml reference: https://build.phonegap.com/docs/config-xml-->
-
-<widget xmlns= 	"http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.engetool" versionCode="1" version="0.1.0">
-
-	<name>EngTool-Concreto Armado</name>
-
-	<description>
-
-	</description>
-
-	<author href="http://www.seusite.com">
-		Anderson Alves - A^3.
-	</author>
-
-	<preference name="permissions" value="none" />
+-<widget xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" version="1.0.0" id="com.phonegap.EngTool"> <name>EngTool - Concreto Armado</name> <description> EngTool, aplicativo educacional desenvolvido para facilitar endimento e cálculos envolvidos em campos da engenharia Civil. </description> <author href="http://phonegap.com" email="suporteengtool@gmail.com"> Anderson Alves - A^3. v b0.1 PhoneGap Team </author> <content src="index.html"/> <access origin="*"/>
 
 
 
@@ -39,5 +23,31 @@
 
 
 </widget>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
