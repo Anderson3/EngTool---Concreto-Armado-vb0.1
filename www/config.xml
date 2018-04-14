@@ -16,5 +16,9 @@
 	<access origin="*"/> 
 	
 	<icon src="icon.png" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="ldpi"/>
+	<icon src="icon.png" gap:platform="android" gap:qualifier="mdpi"/>
+	<icon src="icon.png" gap:platform="android" gap:qualifier="hdpi"/>
+	<icon src="icon.png" gap:platform="android" gap:qualifier="xhdpi"/>
 
 </widget>
