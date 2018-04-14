@@ -13,8 +13,6 @@
 
 	<content src="index.html"/> 
 
-	<access origin="*"/> 
-
-	<icon src="icon.png" />
+	<access origin="*"/>
 
 </widget>
