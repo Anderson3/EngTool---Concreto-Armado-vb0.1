@@ -14,5 +14,7 @@
 	<content src="index.html"/> 
 
 	<access origin="*"/> 
+	
+	<icon src="icon.png" />
 
 </widget>
