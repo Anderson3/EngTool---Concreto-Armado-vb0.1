@@ -1,14 +1,32 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.EngTool" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>EngTool - Concreto Armado</name>
-    <description>
-        EngTool, aplicativo educacional desenvolvido para facilitar endimento e cálculos envolvidos em campos da engenharia Civil.
-    </description>
-    <author email="suporteengtool@gmail.com" href="http://phonegap.com">
-    	Anderson Alves - A^3.
-    	v b.100
-        PhoneGap Team
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
-</widget>
+<?xml version="1.0" encoding="UTF-8"?>
+-<widget xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" version="1.0.0" id="com.phonegap.EngTool"> 
+
+	<name>EngTool - Concreto Armado</name> 
+
+	<description> 
+		EngTool, aplicativo educacional desenvolvido para facilitar endimento e cálculos envolvidos em campos da engenharia Civil. 
+	</description> 
+
+	<author href="http://phonegap.com" email="suporteengtool@gmail.com"> 
+		Anderson Alves - A^3. v b0.1 PhoneGap Team 
+	</author> 
+
+	<content src="index.html"/> 
+
+	<access origin="*"/> 
+
+	<icon src="icon.png" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="ldpi"/>
+	<icon src="icon.png" gap:platform="android" gap:qualifier="mdpi"/>
+	<icon src="icon.png" gap:platform="android" gap:qualifier="hdpi"/>
+	<icon src="icon.png" gap:platform="android" gap:qualifier="xhdpi"/>
+	<icon src="icon.png" gap:platform="blackberry">
+	<icon src="icon.png" gap:platform="blackberry" gap:state="hover"/>
+	<icon src="icon.png" gap:platform="ios" width="57" height="57"/>
+	<icon src="icon.png" gap:platform="ios" width="72" height="72"/>
+	<icon src="icon.png" gap:platform="ios" width="114" height="114"/>
+	<icon src="icon.png" gap:platform="ios" width="144" height="144"/>
+	<icon src="icon.png" gap:platform="webos"/>
+	<icon src="icon.png" gap:platform="winphone"/>
+	<icon src="icon.png" gap:platform="winphone" gap:role="background"/>
+	
