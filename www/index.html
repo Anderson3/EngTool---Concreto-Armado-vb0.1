@@ -1,0 +1,105 @@
+<DOCTYPE html>
+
+<html lang="pt-br">
+	
+	<head>
+
+		<meta charser="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>EngTool - Concreto Armado</title>
+		<link rel="icon" href="img/favicon.ico">
+		<link rel="stylesheet" href="estilo.css">
+		<link href="css/font/JosefinSans-Regular.ttf">
+		<script type="text/javascript" src="jquery.mobile-1.4.5.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+
+	</head>
+
+
+	<body>
+
+		<header id = "topo">
+			<section class="cabecalho">
+				<a href="index.html"><h1 class="logo"></h1></a>
+			</section>
+			<div class="separador"></div>
+			
+		</header>
+
+		<main id="principal">
+				<br>
+				<h2 align="center">Concreto Armado</h2>
+			<section class="corpo">
+
+				<br>
+				<h3 align="center">Cálculadora de Armações de Concreto Armado</h3>
+				<br>
+				
+				<h4>Dados:</h4>
+				<hr>
+				<ul>
+					<p>Momento Fletor (KN.m): <input id="momento-fletor" type="number"></input></p>
+					<p>Resistência - Fck (Mpa): <input id="fck" type="number"></input></p>
+					<p>Medida da Base - bw (cm): <input id="bw" type="number"></input></p>
+					<p>Medida da Altura - h (cm): <input id="h" type="number"></input></p>
+					<p>Altura Útil - d (cm): <input id="d" type="number"></input></p>
+				</ul>
+				<hr>
+					<div class="space-btn-calcular"><a onclick="verificar()">CALCULAR  </a></div>
+				
+				<br>
+				<hr>
+				<br>
+				<section class="box-1">
+					<h4>Informações e Coeficientes</h4>
+					<hr width="90%" align="center">
+						<p>Momento de Projeto - Md (KN.m) : <span id="momento-projeto">0</span></p>
+						<p><span id="dominio"></span></p>
+						<p>Kmd : <span id="kmd">0</span></p>
+						<p>Kx : <span id="kx">0</span></p>
+						<p>Kz : <span id="kz">0</span></p>
+				</section>
+				<br>
+				<section class="box-1">
+					<h4>Áreas de Aço (mm<sup>2</sup>)</h4>
+					<hr width="90%" align="center">
+						<p>Longitudinal - As : <span id="areaAco">0</span></p>
+					
+						<p>Sobre-Apoios - Asp : <span id="areaAcoSP">0</span></p>
+					
+						<p>Pele - Ap : <span id="areaAcoP">0</span></p>
+
+
+					<script>
+						$(".box-1").hide();
+
+						$(".space-btn-calcular").click(function(){
+			    		$(".box-1").show('slow');
+						});
+					</script>
+
+
+				</section>
+
+			</section>
+
+			<section id="img-info">
+				
+				<h4 align="center">Domínios no ELU do Concreto Armado</h4>
+				<div class="box-2">
+					<img id="imgDominio" src="img/dominios.jpg" width="100%"/>
+				</div>
+			</section>
+
+		</main>
+
+
+		<footer id="rodape">
+			<a onclick="info()"><img src="img/a3logo.png" width="11%" align="right"/></a>
+		</footer>
+
+			
+	</body>
+
+</html>
