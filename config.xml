@@ -6,8 +6,6 @@
     </description>
     <author email="suporteengtool@gmail.com" href="http://phonegap.com">
     	Anderson Alves de Aguiar - A3.
-    	v b0.1
-        PhoneGap Team
     </author>
     <content src="index.html" />
     <access origin="*" />
